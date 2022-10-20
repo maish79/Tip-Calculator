@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
+    <div id="container">
+        <div class="main">
+            <h2>Tip calculator</h2>
+            <p></p>
+            <div class="details">
+            <br>
+            <br>
+            <label for="bill">Bill Amount</label>
+            <br>
+            <button><i class="fa-solid fa-dollar-sign"></i></button> <input id= "amount" type="text">
+            <br>
+            <br>
+            <label for="guest">Number of Guests</label>
+            <br>
+            <button><i class="fa-solid fa-person"></i></button><input id= "guest" type="text">
+            <br>
+            <br>
+            <label for="tip">Tip Amount</label>
+            <br>
+            <button><i class="fa-solid fa-comments-dollar"></i></button><input id="tip" type="text">
+            <br>
+            <br>
+          </div>
+            <div class="calculate">
+                <button onclick="calculate">Calculate</button>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
     <script src="assets/js/script.js"></script>
 </body>
 </html>
