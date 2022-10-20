@@ -15,7 +15,7 @@ p {
     
 }
 .calculate button:hover{
-    background-color: rgb(231, 141, 30);
+    background-color: aqua
 }
 body{
     
@@ -44,4 +44,9 @@ body{
 .details{
     text-align: center;
     margin: auto;
+}
+#total {
+    padding-top: 15px;
+    text-align: center;
+    font-size: medium;
 }
