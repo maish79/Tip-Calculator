@@ -18,7 +18,7 @@
             <br>
             <label for="bill">Bill Amount</label>
             <br>
-            <button><i class="fa-solid fa-dollar-sign"></i></button> <input id= "amount" type="text">
+            <button><i class="fa-solid fa-dollar-sign"></i></button> <input id= "bill" type="text">
             <br>
             <br>
             <label for="guest">Number of Guests</label>
@@ -33,7 +33,11 @@
             <br>
           </div>
             <div class="calculate">
-                <button onclick="calculate">Calculate</button>
+                <button onclick="calculate()">Calculate</button>
+            </div>
+            <div id="total">
+                <h3>Total: $</h3><h3 id="total"></h3>
+                
             </div>
 
 
