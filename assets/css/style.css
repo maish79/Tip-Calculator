@@ -50,3 +50,13 @@ body{
     text-align: center;
     font-size: medium;
 }
+
+@media(max-width:315px){
+      #container{
+        width: 80%;
+         }
+    button {
+
+        visibility:hidden;
+ }
+}
