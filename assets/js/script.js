@@ -3,9 +3,10 @@ function calculate(){
     let guest = parseInt(document.getElementById("guest").value);
     let tip = parseInt(document.getElementById("tip").value);
 
-    let total =(bill + (bill*(tip/100)))/guest;
+    let total =(bill + (bill*(tip*.01)))/guest;
 
-    document.getElementById("total").innerHTML= total.Math.floor();
+    document.getElementById("total").innerHTML= total.toFixed(2);
+    
     
     
     }
