@@ -6,7 +6,7 @@
 
 * The Tip calculator is used to determine how much each person should pay including the tip.
 * Only the total amount and the percentage tip should be included for you to calculate the individual amount payable.
-* The Tip calculator was created using JavaSCript, CSS and HTML.
+* The Tip calculator was created using Javascript, CSS and HTML.
 
 # Accessibility score
 
